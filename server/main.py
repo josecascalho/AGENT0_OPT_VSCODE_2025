@@ -339,7 +339,7 @@ class Server(BaseException):
 
 
 def main():
-    with open("config_big.json") as config_file:
+    with open("../config_big.json") as config_file:
         config = json.load(config_file)
     # Host and Port
     if len(sys.argv) == 3:
